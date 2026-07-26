@@ -176,7 +176,7 @@
   .orb-art{
     justify-self:center;
     width: 100%;
-    max-width: 220px;
+    max-width: 320px;
   }
 
   /* ---------- Roadmap ---------- */
@@ -352,8 +352,12 @@
     .articles-table th, .articles-table td{ padding: 12px 14px; font-size: 0.88rem; }
   }
   @media (max-width: 380px){
-    .hero-art, .orb-art{ display:none; }
+  .hero-art, .orb-art{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
   }
+}
 </style>
 </head>
 <body>
@@ -385,7 +389,6 @@
     </div>
     <img class="hero-art" src="assets/img/hero-graphic2.png" alt="This is a sequence of stars and squiggles to enhance user experience">
     </div>
-  </div>
 </section>
 
 <section class="what-is">
@@ -397,7 +400,6 @@
     </div>
     <img class="orb-art" src="assets/img/what-is-graphic.png" alt="A decorative orb like shape to enhance user experience">
     </div>
-  </div>
 </section>
 
 <section class="roadmap" id="roadmap">
